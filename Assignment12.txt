@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My table </title>
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            body{
+                text-align: center;
+                font-size: 30px;
+                background-color: antiquewhite;
+            }
+            table{
+                width: 80%;
+                height: 500px;
+            }
+            .even{
+                background-color: brown;
+            }
+            .odd{
+                background-color: crimson;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+           
+            <tr>
+                <th rowspan="2"> Year </th>
+                <th colspan="4"> Course Name </th>
+                <th rowspan="2"> Total Student </th>
+            </tr>
+            <tr>
+                <td> MCA </th>
+                <td> M.Tech.</th>
+                <td> MBA(MS)</th>
+                <td> B.Com.</th>
+            </tr>
+            <tr class="odd">
+                <td> 2019 </td>
+                <td> 500 </td>
+                <td> 150 </td>
+                <td> 600 </td>
+                <td> 450 </td>
+                <td> 1700 </td>
+            </tr>
+            <tr>
+                <td> 2020 </td>
+                <td> 520 </td>
+                <td> 140 </td>
+                <td> 550 </td>
+                <td> 400 </td>
+                <td> 1610 </td>
+            </tr>
+            <tr class="even">
+                <td> 2020 </td>
+                <td> 510 </td>
+                <td> 120 </td>
+                <td> 580 </td>
+                <td> 400 </td>
+                <td> 1610 </td>
+            </tr>
+            <tr>
+                <td colspan="5"> Grand total </td>
+                <td> 4920 </td>
+            </tr>
+        
+        </table>
+    </body>
+</html>

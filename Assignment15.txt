@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 15</title>
+<style> 
+div {
+  width: 150px;
+  height: 150px;
+  background-color:blue;
+  position: relative;
+  margin-left: 50px;
+  animation-name: Animation;
+  animation-duration: 10s;
+  border: solid black;
+}
+
+@keyframes Animation {
+  0%   {background-color:blue;left:0px; top:0px; height: 100px;width: 100px;}
+  25%  {background-color:pink; left:200px; top:0px;height: 150px;width:150px}
+  50%  {background-color:red; left:200px; top:200px;height: 200px;width:200px}
+  75%  {background-color:yellow; left:0px; top:200px;height: 150px;width:150px}
+  100% {background-color:green; left:0px; top:0px;height: 100px;width:100px}
+}
+</style>
+</head>
+<body bgcolor="lightblue">
+
+<h1>Animation</h1>
+
+<div style="font-size: 1cm;">Movement</div>
+
+
+
+</body>
+</html>

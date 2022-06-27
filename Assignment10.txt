@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assingnment Q10</title>
+    <style>
+        body{
+            background-color: rgb(95, 223, 144);
+        }
+        h1{
+            text-align: center;
+            color: rgb(23, 23, 24);
+            font-size: 40px;
+        }
+        p{
+            background-color: rgb(22, 145, 134);
+            width: 80%;;
+            align-items: center;
+            margin-left: 10%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Marquee Tag</h1><HR><BR>
+        <p><marquee direction="right" behavior="scroll" scrollamount="10">
+            This Is A Marquee
+        </marquee></p>
+        <p><marquee direction="up" behavior="scroll" scrollamount="5">
+            <a href="https://www.google.com">GOOGLE</a>
+        </marquee></p>
+        <p><marquee direction="left" behavior="scroll" scrollamount="10">
+            <a href="https://www.google.com"><img src="download.png" width="200px" height="100px"</a>
+        </marquee></p>
+        <p><marquee direction="down" behavior="scroll" scrollamount="1" height="50px">
+            Thanking you !!!!
+        </marquee></p>
+    </body>
+</html>

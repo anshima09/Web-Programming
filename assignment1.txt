@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 40px;
+                padding: 0px;
+                background-color: aquamarine;
+            }
+            li{
+                font-size: 26px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> <u> ORDERED LIST </u> </h1>
+        <ol type="1" >
+            <li>IIPS</li>
+            <li>SCSIT</li>
+            <li>IMS</li>
+        </ol>
+        <hr>
+        <ol type="a">
+            <li>IIPS</li>
+            <li>SCSIT</li>
+            <li>IMS</li>
+        </ol>
+        <hr>
+        <ol type="A">
+            <li>IIPS</li>
+            <li>SCSIT</li>
+            <li>IMS</li>
+        </ol>
+        <hr>
+        <ol type="I">
+            <li>IIPS</li>
+            <li>SCSIT</li>
+            <li>IMS</li>
+        </ol>
+        <hr>
+        <ol type="i">
+            <li>IIPS</li>
+            <li>SCSIT</li>
+            <li>IMS</li>
+        </ol>
+        <hr>
+        <h1> <u> UNORDERED LIST </u> </h1>
+        <ul style="list-style-type:disc;">
+            <li>IIPS</li>
+            <li>SCSIT</li>
+            <li>IMS</li>
+        </ul>
+        <ul style="list-style-type:circle;">
+            <li>IIPS</li>
+            <li>SCSIT</li>
+            <li>IMS</li>
+        </ul>
+        <ul style="list-style-type:square;">
+            <li>IIPS</li>
+            <li>SCSIT</li>
+            <li>IMS</li>
+        </ul>
+        <ul style="list-style-type:none;">
+            <li>IIPS</li>
+            <li>SCSIT</li>
+            <li>IMS</li>
+        </ul>
+        
+    </body>
+    
+</html>

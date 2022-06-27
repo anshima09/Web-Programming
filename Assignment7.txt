@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:aqua;
+}
+h1{
+  text-align:center;
+}
+</style>
+<title>MY WEB PAGE</title>
+</head>
+<body>
+<h1><center>HORIZONTAL LINE</center></h1>
+<h1>size=10</h1>
+  <hr size="10"/>
+
+<h1>width=50% and noshade<h1>
+  <hr width="50%" noshade/>
+
+<h1>width=200, size=3 and noshade</h1>
+  <hr width="200" size="3" noshade/>
+
+<h1>width=100 and align=right</h1>
+  <hr width="100" text-align="right"/>
+
+</body>
+</html>

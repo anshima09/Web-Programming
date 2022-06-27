@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title> my page </title>
+     <style>
+         body{
+             background-color: aquamarine;
+             margin: 60px;
+             padding: 30px;
+             font-size: 35px;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             color: black;
+         }
+        li :hover{
+            color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+     </style>
+</head>
+<body>
+    <h1><u> LISTS </u></h1>
+    <ul type="list-style-type:circle">
+        <li><a href="https://www.iips.edu.in/">IIPS </a></li>
+        <li><a href="https://www.ietdavv.edu.in/">IET </a></li>
+        <li><a href="https://www.dauniv.ac.in/new/ims/"> IMS </a></li>
+    </ul>
+</body>
+</html>

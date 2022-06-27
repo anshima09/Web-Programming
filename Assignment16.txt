@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Assignment 16</title>
+   <style>
+      body{
+          background-color: rgb(238, 44, 44);
+      }
+      .time{
+          background-color: black;
+          color: white;
+          box-shadow: 2px 5px 5px forestgreen;
+          width: 500px;
+          padding: 40px;
+          font-size: 40px;            
+          border-radius: 5px;
+          border: solid white 2px;
+      }
+     
+      h1{
+          color: black;
+          margin-top: 150px;
+          font-family: Nimble;
+      }
+  </style>
+  <script>
+   function GetTime() {
+    var now = new Date();
+    document.getElementById('timer').innerHTML = now.toLocaleTimeString();
+    } 
+    function f1(){
+            setInterval(GetTime, 1000);
+    }  
+</script>
+</head>
+<body onload="f1()">
+
+   
+
+<body >
+   <center>
+      <h1>Current Time Is </h1><br><br>
+   <div align="center" class="time" id="timer" >
+   
+   </div><br><br><br>
+</center>
+
+    
+</body>
+</html>

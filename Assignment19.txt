@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	
+	<title> Assignment 19</title>
+	<style>
+        body{
+            color: white;
+        }
+    div{
+        background-color: darkcyan;
+    }
+    div:hover{
+        background-color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }    
+    hr{
+        border: solid black 2px;
+        border-radius: 5px;
+    }
+    
+    table{
+       border: solid black 2px;
+       padding: 5px;
+       
+       margin-left: 200px;
+       font-size: .5cm;
+    }
+    th,td{
+        border: solid black 2px;
+        padding-left: 90px;
+        padding-right: 75px;
+    }
+    #top{
+        margin-top: -13px;
+    }
+    
+    li{
+        font-size: .6cm;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-bottom: 10px;
+    }
+    p{
+        font-size: .6cm;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    </style>
+	
+</head>
+<body bgcolor="bisque">
+	
+    <div id="heading">   
+    <h1 >Anshima Sharma</h1>
+    <a href="https://maps.app.goo.gl/gYpJQP6noY9xK1Yw9"><h3 id="top">09 A, Anil Shree Nagar Dewas (M.P.)</h3></a>
+    <a href="https://api.whatsapp.com/send?phone=+918966912290"><h3 id="top">+918966912290</h3></a>
+    <a href="mailto:anshima54@gmail.com"><h3 id="top">anshima54@gmail.com</h3></a
+    </div>
+   <hr>
+    <div>
+        <h2>Objective:-</h2>
+        <p ><b>To pursue a challenging career and be a part of progressive organization 
+        that gives a scope to enhance my knowledge and utilizing my skills towards personal 
+        and organizational growth.</b></p>
+    </div>
+    <hr>
+    <div>
+         <h2>Education:-</h2>
+         <table >
+              <tr>
+              <th style="margin-left: 10px;">Year</th>
+              <th>Degree</th>
+              <th>Bord</th>
+              <th>Percentage %</th>
+            </tr>
+                <tr > 
+                  <td>2018</td>
+                  <td>X</td>
+                  <td>MPBSE</td>
+                  <td>94.3%</td>
+                </tr>
+              
+              <tr>
+                  <td>2020</td>
+                  <td>XII</td>
+                  <td>MPBSE</td>
+                  <td>90%</td>
+              </tr>
+          </table>
+    </div><br>
+    <hr>
+    <div>
+        <h2>Skill's & Achievement:-</h2>
+        <li>C Language</li>
+        <li>C++ Language</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java Script</li>
+        <li>30 Days Google Program</li>
+    </div><br>
+    <hr>
+    <div>
+        <h2>Personal Details:-</h2>
+        
+           <li>Date of Birth:- 10 June 2003</li>
+          <li>Gender:- Female</li>
+          <li>Nationality:- Indian</li>
+          <li>Marital Status:- Unmarried</li>
+          <li>Languages Known:- Hindi, English,French</li>
+          <li>Mother Tongue:- Hindi</li>
+          <li>Father’s Name:- Mr. Sanjay Sharma</li>
+          
+    </div>
+    <hr>
+    <div>
+        <h2>Declaration:-</h2>
+        <p><b>I hereby declare that the information furnished above is true to the best of my knowledge.</b></p>
+    </div><br>
+    <hr>
+    <div>
+        <h2>DATE:-</h2>
+        <p id="dt" style="margin-top: -1000;"><p>
+    </div>
+    <script>
+
+        var today = new Date();
+        var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+        document.getElementById("dt").innerHTML=date;
+
+        </script>
+</body>
+</html>

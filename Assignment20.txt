@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 20</title>
+    <style>
+        body{
+            background-color: rgb(219, 157, 157);
+        }
+        h1{
+            color: blueviolet;
+            font-size: 3rem;
+        }
+        .a1 img{
+            
+            width: 200px;
+            height: 200px;
+            transition: transform 0.1s ;
+            margin-top: 150px;
+            margin-left: 10px;
+
+        }
+        .a1 img:hover{
+
+            transform: scale(1.5,1.5)  ;
+            box-shadow: 2px 5px 10px rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="a1">
+        <img style="margin-left: 30px;" src="image1.webp">
+        <img src="image2.webp">
+        <img src="image3.webp">
+        <img src="image4.webp">
+        <img src="image5.webp">
+        <img src="image6.webp">
+    </div>
+</body>
+</html>

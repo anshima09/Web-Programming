@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 3</title>
+<style>
+        table,
+        td {
+            border: 2px solid black;
+            /* border-collapse: collapse; */
+            color:rgb(90, 16, 209);
+            margin: 10px;
+            padding: 20px;
+        }
+        th{
+            width: 300px;
+            height: 30px;
+            border: 2px solid black;
+            color: rgb(233, 119, 12);
+            size: 300px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body bgcolor="lightyellow">
+
+<h2 align="center">Marks</h2>
+
+<table>
+  <tr>
+    <th rowspan="2">Year </th>
+    <th colspan="4">Course Name</th>
+    <th rowspan="2">Total Students</th>
+  </tr>
+  <tr>
+    
+    <th>MCA</th>
+    <th>MTech</th>
+    <th>MBA</th>
+    <th>B.COM</th>
+    
+  </tr>
+  <tr>
+    <td>2019</td>
+    <td> 500</td>
+    <td> 150</td>
+    <td> 600</td>
+    <td> 450 </td>
+   <td>1700</td>
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>520</td>
+    <td>140  </td>
+    <td>550</td>
+    <td> 400 </td>
+   <td>1610 </td>
+  </tr>
+  <tr>
+  				<th colspan="5">Grand Total </th>
+  				<td>3310 </td>
+ 
+
+
+</table>
+
+</body>
+</html>
+  

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><marquee>Transitions</marquee></title>
+    <style>
+        body{
+            background-color: lightpink;
+        }
+        h1{
+            text-align: center;
+            color: black;
+            font-family: verdana;
+            font-size: 40px;
+        }
+        .a1{
+            margin: 40px;
+            width: 60%;
+            align-items: center;
+        }
+  
+        .a1 p{
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            color: rgb(10, 9, 9);
+            background-color: wheat;
+            float:right;
+            margin: 5px;
+            
+        }
+        .a1 p:hover{
+            background-color: antiquewhite;
+            color: blueviolet;
+            transform: scale(1.5,1.5) rotate(360deg) ;
+            transition: transform 2s,background-color 3s,color 2s;
+        }
+        .a2{
+            background-color: lightyellow;
+            color: blue;
+            width: 30%;
+            margin-left: 100px;
+            height: 300px;
+            overflow: scroll;
+            padding: 5px;
+            margin-bottom: 50px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Transitions</h1>
+    <div class="a1">
+  
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum recusandae minus tenetur harum, necessitatibus minima?</p>
+    </div>
+    <div class="a2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dicta quos omnis minus architecto consequuntur modi perferendis veritatis, id quo minima soluta nisi non velit dolorum nemo et commodi molestiae!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed, blanditiis a quam, quae enim deleniti reiciendis ea voluptate ipsam laboriosam nobis facere distinctio quia veritatis fuga numquam similique obcaecati.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dicta inventore provident quo eligendi repellat illum quae accusantium, vero voluptatum ab pariatur voluptas, praesentium ducimus eius possimus sit facere quos?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe explicabo quos, optio quasi illum reiciendis magnam dicta alias. Eaque nobis temporibus dolorem perferendis error voluptas repellat velit. Ipsa a nihil tempore odio numquam id aliquid rem fuga ut exercitationem temporibus dolores, unde porro vitae! Soluta commodi obcaecati pariatur dolor dolores quos modi magnam error! Dolore corrupti cum nulla ipsam voluptas facere repellendus aspernatur beatae labore! Placeat ex fugit quas aspernatur expedita itaque temporibus ipsam consequatur aliquam dolorum vel voluptas, eaque, adipisci deleniti eligendi. Ullam ratione animi sequi expedita dolorum eaque unde dicta </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe soluta aut. Facilis architecto consequuntur dolore debitis reiciendis doloribus saepe animi! Illum blanditiis iusto labore perspiciatis! Odit illo ipsa at perspiciatis temporibus neque nesciunt officia voluptas enim. Consectetur quaerat voluptates doloribus magnam. Dolorum, blanditiis ipsum perspiciatis libe molestias blanditiis quos ab, cumque, fuga, quod modi consequatur porro esse ipsa. Repudiandae rem molniti rem qui iusto aliquam excepturi maiores. Eos odit sint exercitationem tempore? Iure nulla ullam fuga eligendi ipsa sunt necessitatibus a! Accusamus modi blanditiis officiis quae!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Assignment 17</title>
+   
+   <style>
+      body{
+         color: white;
+      }
+
+         .main{
+            height: 350px;
+            width: 500px;
+            margin-top: 100px;
+            margin-left: 35%;
+            background-color: brown;
+            padding: 30px;
+            font-size: .7cm;
+            font-family: Raleigh XBd BT;
+            border: solid black 2px;
+         }
+        .button{
+           border: solid black 1px;
+           font-size: .5cm;
+           margin-left: 5px;
+           border-radius: 5px;
+        }
+        .box{
+           background-color: black;
+           margin-top: px;
+           font-size: .6cm;
+           
+        }
+
+   </style>
+
+
+</head>
+<body bgcolor="lightyellow">
+
+   <div class="main">
+
+      NAME : <input style="margin-left: 150px;font-size: .5cm;" type="text" id="name"><br><br>
+      PASSWORD : <input style="margin-left: 87px; font-size: .5cm;" type="password" id="pass"><br><br><br>
+
+      <button class="button" onclick="myfun()" id="sinfo">Show Information</button>
+      <button class="button" onclick="fun()" id="clear">Clear</button>
+      <div class="box">
+         <p id="demo"></p>
+      </div>
+     <div>
+   
+     </div>
+   </div>
+   
+<script>
+
+   function fun(){
+      document.getElementById("demo").innerHTML=" ";
+   }
+
+   function myfun(){
+      var nm=document.getElementById("name").value;
+      var pw=document.getElementById("pass").value;
+      document.getElementById("demo").innerHTML="Name is :-"+nm+"<br>Password is :-"+pw;
+   }
+   
+
+</script>
+
+</body>
+</html>

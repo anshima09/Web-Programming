@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> my page </title>
+        <style> 
+            body{
+                background-color: bisque;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: blue;"> International Institute of Professional Studies </h1>
+        <h2 style="color: black;"> International Institute of Professional Studies </h2>
+        <h3 style="color: brown;"> International Institute of Professional Studies </h3>
+        <h4 style="color: rgb(3, 51, 10);"> International Institute of Professional Studies </h4>
+        <h5 style="color: cadetblue;"> International Institute of Professional Studies </h5>
+    </body>
+</html>
